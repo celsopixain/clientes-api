@@ -1,9 +1,9 @@
-package model;
+package com.example.clientes_api.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
-import lombok.*;
+import lombok.Data;
 
 import java.time.LocalDate;
 
