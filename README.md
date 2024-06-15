@@ -28,3 +28,6 @@ spring.profiles.active=local
 
 #configuração mensagens
 spring.messages.basename=messages
+
+#Instalando a função UNACCENT no Postgres;
+create extension if not exists UNACCENT;
